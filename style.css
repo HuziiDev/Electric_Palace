@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+body{
+    /* min-height: 100vh;
+    max-width: 800px; */
+    background-image: linear-gradient(to right, rgb(0, 79, 149),whitesmoke);
+}
+.header__h1{
+    color: dimgrey;
+    
+    
+    font-weight: bolder;
+    margin-left: 2rem;
+    background-image: linear-gradient(to right,) ;
+    
+    text-align: center;
+    margin: 2rem;
+
+}
+.header__ul{
+    list-style: none;
+}
+.header__li{
+    display: inline;
+    padding: 100px;
+    
+}
+a{
+    color: aliceblue;
+    font-weight: bold;
+    background-color:black ;
+    text-decoration: none;
+}
+a:hover,a:focus{
+    background-color: rgba(233, 223, 145, 0.014) ;
+}
+.main__img{
+    padding: 2rem;
+    border: 5px solid white;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-image: linear-gradient(to right, rgb(0, 79, 149),rgb(0,79,149));
+    margin: 2rem;
+
+}
+.footer__h2{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.main__p{
+    color: white;
+    padding: 1rem;
+    margin-bottom: 0.2rem;
+}
+.main__h1{
+    padding: 1rem;
+    margin-top: 0.2rem;
+    background-color: antiquewhite;
+    width: 20%;
+}
+.contact__a{
+    background-color: rgb(255, 245, 232);
+    color: gray;
+}
+.contact__h2{
+    background-color: antiquewhite;
+    width: 20%;
+    color: black;
+    margin: 1rem;
+}
+address{
+    color: white;
+    padding: 1rem;
+    margin-bottom: 0.2rem;
+}
+.contact__img{
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-left: 900px;
+}
+.contact__form{
+    width: 50%;
+}
+.contact__label{
+    display: block;
+}
+.contact__h2{
+    margin: 0;
+    width: 30%;
+}
+.contact__fieldset{
+    border: none;
+
+}
+.contact__p{
+    margin: 1em 0;
+}
+.contact__label{
+    display: block;
+    font-weight: bold;
+}
+.contact__input, .contact__textarea{
+padding: 0.5rem;
+border-radius: 15px;
+border-width: 2px;
+width: 100%;
+}
+.contact__button{
+    padding: 0.5em;
+    border-radius: 15px;
+    background-color: black;
+    color: whitesmoke;
